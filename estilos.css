@@ -1,0 +1,442 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EAF2F8;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    top: 0;
+    max-width: 100vw;
+    height: 6vh;
+    background-color: #47949D;
+}
+
+.contenedor svg {
+    position: relative;
+    width: 2vw;
+    height: 5vh;
+    color: white;
+}
+
+.icono1 {
+    width: 4vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    left: 0vw;
+    border-right: 1px solid #515A5A;
+}
+
+.icono1 .bibi-twitter {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.bibi-twitter:hover{
+    color: #515A5A;
+    transition-duration: 0.5s;
+}
+
+.icono2 {
+    width: 4vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    left: 4vw;
+    border-right: 1px solid #515A5A;
+}
+
+.icono2 .bibi-facebook {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.bibi-facebook:hover {
+    color: #515A5A;
+    transition-duration: 0.5s;
+}
+
+.icono3 {
+    width: 4vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    left: 8vw;
+    border-right: 1px solid #515A5A;
+}
+
+.icono3 .bibi-pinterest {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.bibi-pinterest:hover {
+    color: #515A5A;
+    transition-duration: 0.5s;
+}
+
+.icono4 {
+    width: 4vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    left: 12vw;
+}
+
+.icono4 .bibi-youtube {
+    position:absolute;
+    left: 25%;
+    top: 10%;
+}
+
+.bibi-youtube:hover {
+    color: #515A5A;
+    transition-duration: 0.5s;
+}
+
+.cajita {
+    position: absolute;
+    width: 36vw;
+    height: 6vh;
+    top: 0;
+    right: 0;
+}
+
+.cajita li{
+    display: inline-block;
+    font-size: 95%;
+    padding: 0 1.5%;
+    position: relative;
+    top: 1.5vh;
+}
+
+.cajita a {
+    color: white;
+    text-decoration: none;
+}
+
+.cajita a:hover{
+    color: #515A5A;
+    transition-duration: 0.5s;
+}
+
+.texto1 {
+    width: 7vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    right: 29vw;
+    border-right: 1px solid #515A5A;
+}
+
+.texto1 li {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+.texto2 {
+    width: 7vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    right: 22vw;
+    border-right: 1px solid #515A5A;
+}
+
+.texto2 li {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+.texto3 {
+    width: 14vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    right: 8vw;
+    border-right: 1px solid #515A5A;
+}
+
+.texto3 li {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+.texto4 {
+    width: 7vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    right: 1vw;
+}
+
+.texto4 li {
+    position: absolute;
+    left: 7%;
+    top: 20%;
+}
+
+.contenedor1 {
+    position: relative;
+    top: 0vh;
+    max-width: 100vw;
+    height: 9vh;
+    background-color: #515A5A;
+    display: flex;
+}
+
+.sub {
+    width: 20vw;
+    height: 9vh;
+    position: absolute;
+    top: 0;
+    right: 8vw;
+    border-right: 1px solid black;
+}
+
+.icon33 {
+    width: 4vw;
+    height: 9vh;
+    position: absolute;
+    top: 0;
+    right: 4vw;
+    border-right: 1px solid black;
+}
+
+.icon34 {
+    width: 4vw;
+    height: 9vh;
+    position: absolute;
+    top: 0;
+    right: 0vw;
+}
+
+.contenedor1 h1 {
+    position: relative;
+    left: 2vw;
+    top: 1vh;
+    color: white;
+    height: 9vh;
+    padding: 0;
+}
+
+.contenedor1 h2 {
+    position: relative;
+    color: white;
+    top: 2vh;
+    left: 2vw;
+    height: 9vh;
+    font-size: 130%;
+}
+
+.contenedor1 svg {
+    position: relative;
+    width: 2vw;
+    height: 9vh;
+    color: white;
+}
+
+.bibi-search {
+    position: relative;
+    left: 1vw;
+}
+
+.bibi-list {
+        position: relative;
+        left: 1vw;
+}
+
+.contenedor2 {
+    position: relative;
+    top: 0vh;
+    max-width: 100vw;
+    height: 15vh;
+    background-color: #73C6B6;
+}
+
+.contenedor2 h1 {
+    position: relative;
+    left: 2vw;
+    top: 1vh;
+    color: white;
+    height: 9vh;
+    font-size: 350%;
+}
+
+.contenedor3 {
+    position: absolute;
+    width: 41vw;
+    height: 55vh;
+    right: 6vw;
+    bottom: 5vh;
+    background: url(https://www.alertageekchile.cl/wp-content/uploads/2020/02/maxresdefault-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+
+.caja1 {
+    position: absolute;
+    bottom:0;
+    background-color:#73C6B6;
+    width: 100%;
+    height: 8vh;
+}
+
+.caja1 h4 {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+
+.caja2 {
+    position: absolute;
+    bottom:8vh;
+    background-color:#515A5A;
+    width: 100%;
+    height: 6vh;
+}
+
+.bibi-heart-fill {
+    color: white;
+    position: absolute;
+    right: 7vw;
+    bottom: 15%;
+}
+
+.bibi-eye-fill {
+    color: white;
+    position: absolute;
+    right: 4vw;
+    bottom: 15%;
+}
+
+.bibi-arrow-right-square-fill {
+    color: white;
+    position: absolute;
+    right: 1vw;
+    bottom: 15%;
+}
+
+.caja2 h3 {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+
+.contenedor4 {
+    position: absolute;
+    width: 41vw;
+    height: 55vh;
+    left: 6vw;
+    bottom: 5vh;
+    background: url(https://www.gamespot.com/a/uploads/screen_kubrick/1732/17320263/4019145-anime-dek-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+
+.caja3 {
+    position: absolute;
+    bottom:0;
+    background-color:#73C6B6;
+    width: 100%;
+    height: 8vh;
+}
+
+.caja3 h4 {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+
+.caja4 {
+    position: absolute;
+    bottom:8vh;
+    background-color:#515A5A;
+    width: 100%;
+    height: 6vh;
+}
+
+.caja4 h3 {
+    position: absolute;
+    left: 1%;
+    bottom: 1%;
+}
+
+.footer {
+    position: relative;
+    top: 70vh;
+    background-color: #515A5A;
+    max-width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    padding: 3% 2%;
+    list-style: none;
+}
+
+.footer li {
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul1 {
+    position: absolute;
+    width: 45vw;
+    height: 40vh;
+    left: 0vw;
+}
+
+.ul1 li {
+    position: relative;
+    left: 2vw;
+}
+
+.ul2 {
+    position: absolute;
+    width: 27.5vw;
+    height: 40vh;
+    left: 45vw;
+}
+
+.ul3 {
+    position: absolute;
+    width: 27.5vw;
+    height: 40vh;
+    left: 72.5vw;
+}
+
+#alalau {
+    text-align: right;
+    color: white;
+    position: absolute;
+    width: 96vw;
+    height: 5vh;
+    bottom: 5%;
+    font-size: 100%;
+}
